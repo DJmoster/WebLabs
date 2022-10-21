@@ -4,9 +4,9 @@ function getNextNumber(num) {
         return 0;
     } 
     else if(num > 0) {
-        return num++;
+        return num + 1;
     }
     else if(num < 0) {
-        return num--;
+        return num - 1;
     }
 }
