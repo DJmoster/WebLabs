@@ -1,4 +1,9 @@
-
+const card = {
+    title: "Title 1",
+    imageUrl: "Some url",
+    description: "Eu ut non sint ullamco minim anim laboris sit nulla."
+   };
+   
 function buildCard(card) {
     const cardObj = document.createElement("div");
     const h4Obj   = document.createElement("h4");
